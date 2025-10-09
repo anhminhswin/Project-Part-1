@@ -37,7 +37,7 @@ aside h2 {
     background-color: #f0f8ff;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: auto;
+    margin-top: 10px;
 }
 aside p {
     line-height: 1.6;
@@ -136,13 +136,193 @@ main img {
   margin: 10px;
   padding: 10px;
   width: 25%;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 footer {
     width:100%;
     text-align: center;
     font-size: 0.8em;
 }
+h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+h4 {
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: #333 solid 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+h5 {
+    color: #333;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+article p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+}
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 20px;
+    border-left: 3px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+li {
+    margin-bottom: 5px;
+}
+footer p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+    font-family: 'Arial', sans-serif;
+}
+.about {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    margin-left: 3px;
+    text-align: center; 
+    border: #333 solid 0.5px;
+}
+dd {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    margin-left: 20px;
+    text-align: center; 
+}
+figcaption {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Verdana', sans-serif;
+}
+img {
+    max-width: 35%;
+    height: 35%;
+    display: block;
+    margin: 10px auto;
+    border:#333 solid 1px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+table, th, td {
+    width: 50%;
+    border: #333 solid 1px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: auto;
+
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    text-align: center;
+}
+td {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#applytext {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+
+
+
 
 
 

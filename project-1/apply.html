@@ -9,16 +9,16 @@
 <body>
 <header>
     <nav>
-      <a href="index.html">Home</a> 
-      <a href="jobs.html">Job Openings</a> 
-      <a href="about.html">About Us</a>
-      <a href="mailto:info@AMDATA.com.au">Email Us</a>
+      <a class="button" href="index.html">Home</a> 
+      <a class="button" href="jobs.html">Job Openings</a> 
+      <a class="button" href="about.html">About Us</a>
+      <a class="button" href="mailto:info@AMDATA.com.au">Email Us</a>
     </nav>
     <hr>
 </header>
 <body>
   <h1>AM Data - Job Application Form</h1>
-  <p>Please fill out the form below to register your interest in our advertised positions.</p>
+  <p id="applytext">Please fill out the form below to register your interest in our advertised positions.</p>
 
   <form action="https://mercury.swin.edu.au/it000000/formtest.php." method="post">
 
@@ -49,11 +49,11 @@
     
     <fieldset>
       <legend>Gender</legend>
-      <input type="radio" id="male" name="gender" value="Male" required>
+      <input class="tick" type="radio" id="male" name="gender" value="Male" required>
       <label for="male">Male</label>
-      <input type="radio" id="female" name="gender" value="Female">
+      <input class="tick" type="radio" id="female" name="gender" value="Female">
       <label for="female">Female</label>
-      <input type="radio" id="other" name="gender" value="Other">
+      <input class="tick" type="radio" id="other" name="gender" value="Other">
       <label for="other">Other</label>
     </fieldset>
     <br>
@@ -116,11 +116,11 @@
 
     
     <label for="otherSkills">Other Skills:</label><br>
-    <textarea id="otherSkills" name="otherSkills" rows="4" cols="50" placeholder="Describe other relevant skills..."></textarea>
+    <textarea id="otherskills" name="otherSkills" rows="4" cols="50" placeholder="Describe other relevant skills..."></textarea>
     <br><br>
 
 
-    <input type="submit" value="Submit Application">
+    <input class="button" type="submit" value="Submit Application">
 
   </form>
 
